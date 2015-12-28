@@ -10,6 +10,12 @@ public class redditPost {
     private String CommentLink;
     private String Title;
 
+    public redditPost(String score, String link, String title, String commentLink) {
+        Score = score;
+        Link = link;
+        Title = title;
+        CommentLink = commentLink;
+    }
     public String getScore() {
         return Score;
     }
